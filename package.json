@@ -9,5 +9,8 @@
     "packages": [
       "packages/**"
     ]
+  },
+  "scripts": {
+    "shared-styles": "yarn workspace @shared/styles run build"
   }
 }
