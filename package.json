@@ -11,6 +11,7 @@
     ]
   },
   "scripts": {
-    "shared-styles": "yarn workspace @shared/styles run build"
+    "shared-styles": "yarn workspace @shared/styles run build",
+    "shared-utils": "yarn workspace @shared/utils run build"
   }
 }
