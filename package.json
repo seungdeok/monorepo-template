@@ -1,0 +1,13 @@
+{
+  "name": "monorepo-template",
+  "version": "1.0.0",
+  "description": "Build monorepo using yarn workspace",
+  "repository": "https://github.com/seungdeok/monorepo-template.git",
+  "author": "seungdeok",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/**"
+    ]
+  }
+}
