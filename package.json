@@ -15,9 +15,10 @@
     "shared-utils": "yarn workspace @shared/utils run build",
     "shared-validators": "yarn workspace @shared/validators run build",
     "format": "prettier --cache --write .",
-    "lint": "eslint --cache ."
+    "lint": "eslint --cache .",
+    "test": "yarn workspace pack-a run test"
   },
-  "dependencies": {
+  "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.56.0",
