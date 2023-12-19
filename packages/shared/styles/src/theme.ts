@@ -1,7 +1,8 @@
-import { ITheme } from "./types";
+import { ITheme } from './types';
 
 export const theme: ITheme = {
-  palette: {},
+  // palette: {
+  // },
   breakpoints: {
     tablet: 758,
     mobile: 360,

@@ -1,5 +1,6 @@
 export interface ITheme {
-  palette: {};
+  // palette: {
+  // };
   breakpoints: {
     tablet: number;
     mobile: number;
