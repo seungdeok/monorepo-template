@@ -13,6 +13,14 @@
   "scripts": {
     "shared-styles": "yarn workspace @shared/styles run build",
     "shared-utils": "yarn workspace @shared/utils run build",
-    "shared-validators": "yarn workspace @shared/validators run build"
+    "shared-validators": "yarn workspace @shared/validators run build",
+    "format": "prettier --cache --write .",
+    "lint": "eslint --cache ."
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-plugin-react": "^7.33.2"
   }
 }
