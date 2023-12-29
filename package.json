@@ -17,13 +17,25 @@
     "format": "prettier --cache --write .",
     "lint": "eslint --cache .",
     "test": "yarn workspace pack-a run test",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.3",
+    "@commitlint/config-conventional": "^18.4.3",
     "@typescript-eslint/eslint-plugin": "^6.15.0",
     "@typescript-eslint/parser": "^6.15.0",
     "eslint": "^8.56.0",
     "eslint-plugin-react": "^7.33.2",
-    "husky": "^8.0.0"
+    "husky": "^8.0.0",
+    "lerna": "^8.0.1",
+    "lint-staged": "^15.2.0",
+    "prettier": "^3.1.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": [
+      "yarn format",
+      "yarn lint"
+    ]
   }
 }
