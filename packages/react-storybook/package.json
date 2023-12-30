@@ -1,6 +1,8 @@
 {
   "name": "react-storybook",
   "version": "0.2.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -8,8 +10,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "rm -rf dist && mkdir dist && tsc -p tsconfig.build.json",
+    "test": "react-scripts test --watchAll=false --coverage",
     "eject": "react-scripts eject",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build"
