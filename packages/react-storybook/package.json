@@ -1,6 +1,6 @@
 {
   "name": "react-storybook",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "dependencies": {
@@ -40,9 +40,9 @@
     "@storybook/react-webpack5": "^7.6.5",
     "@storybook/test": "^7.6.5",
     "eslint-plugin-storybook": "^0.6.15",
+    "pack-a": "file:../pack-a",
     "prop-types": "^15.8.1",
     "storybook": "^7.6.5",
-    "webpack": "^5.89.0",
-    "pack-a": "file:../pack-a"
+    "webpack": "^5.89.0"
   }
 }

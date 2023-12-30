@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/seungdeok/monorepo-template/compare/v0.2.0...v0.2.1) (2023-12-30)
+
+
+### :memo: Documentation
+
+* **root:** Add README ([3668e3d](https://github.com/seungdeok/monorepo-template/commit/3668e3d96525202a343e5728d82ef59905609901))
+
+
+### :house: Code Refactoring
+
+* **react-storybook:** Configure storybook ([dace115](https://github.com/seungdeok/monorepo-template/commit/dace11547bb0b7aa7857e71389ede2b8e7326b2b))
+
+
+### :mega: Other
+
+* **root:** Add prettierignore ([bd5c94e](https://github.com/seungdeok/monorepo-template/commit/bd5c94ee9a900c8bea16ef3155b5288eb30ee67c))
+* **root:** Add prettierignore ([7202f42](https://github.com/seungdeok/monorepo-template/commit/7202f423843f181fde0924f36f8f2b27ff8e87d2))
+* **root:** Update build script ([aae344d](https://github.com/seungdeok/monorepo-template/commit/aae344d3c50261b043afff730e8ca14a8e702f69))
+* **root:** Update build script ([cc3d506](https://github.com/seungdeok/monorepo-template/commit/cc3d506b06d0d7a76a373061c24466546945ff58))
+* **root:** Update eslintignore ([82ca781](https://github.com/seungdeok/monorepo-template/commit/82ca7810b947839cc69942993675b45a5cfe4eba))
+* **root:** Update test script ([9202845](https://github.com/seungdeok/monorepo-template/commit/9202845f17861e20235c721341558db31c775415))
+
+
+
 ## 0.2.0 (2023-12-29)
 
 ### :rocket: New Features

@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/seungdeok/monorepo-template/compare/v0.2.0...v0.2.1) (2023-12-30)
+
+
+### :house: Code Refactoring
+
+* **react-storybook:** Configure storybook ([dace115](https://github.com/seungdeok/monorepo-template/commit/dace11547bb0b7aa7857e71389ede2b8e7326b2b))
+
+
+### :mega: Other
+
+* **root:** Update build script ([aae344d](https://github.com/seungdeok/monorepo-template/commit/aae344d3c50261b043afff730e8ca14a8e702f69))
+* **root:** Update build script ([cc3d506](https://github.com/seungdeok/monorepo-template/commit/cc3d506b06d0d7a76a373061c24466546945ff58))
+* **root:** Update test script ([9202845](https://github.com/seungdeok/monorepo-template/commit/9202845f17861e20235c721341558db31c775415))
+
+
+
 ## 0.2.0 (2023-12-29)
 
 ### :rocket: New Features
