@@ -1,1 +1,5 @@
+coverage
+dist
 public
+*.md
+*.js
