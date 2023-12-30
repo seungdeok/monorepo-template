@@ -1,2 +1,5 @@
+coverage
 dist
+public
+*.md
 *.config.js
